@@ -1,0 +1,81 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    // int a,b;
+    // printf("enter the a value:");
+    // scanf("%d",&a);
+    // printf("enter the b value:");
+    // scanf("%d",&b);
+    // printf("Addition=%d \n",a+b);
+    // printf("Substraction=%d \n",a-b);
+    // printf("Multiply=%d \n",a*b);
+    // printf("Modulo=%d \n",a%b);
+    // printf("Divide=%d \n",a/b);
+    // int num=153;
+    // int sum=0;
+    // int Original;
+    // Original=num;
+    // while(num > 0){
+    //     int rem=num % 10;
+    //     num = num / 10;
+    //     sum=sum+rem*rem*rem;
+    // }
+    //     if(Original==sum){
+    //         printf("yes");
+            
+    //     }
+    //     else{
+    //         printf("no");
+    //     }
+    
+   
+//   char ch;
+//   printf("enter the char:");
+//   scanf("%c",&ch);
+//   printf("%c=%d",ch, ch);
+//   int a,b,temp;
+//   printf("enter the value of a:");
+//   scanf("%d",&a);
+//   printf("enter the value of b:");
+//   scanf("%d",&b);
+// //   temp=a;
+//   a=b;
+//   b=temp;
+// a=a+b;
+// b=a-b;
+// a=a-b;
+
+//   printf("after swaping %d %d",a,b);
+   
+//   int year;
+//   printf("enter the year:");
+//   scanf("%d",&year);
+//   if(year % 400==0|| (year % 100!=0 && year % 4==0)){
+//       printf("leap year");
+//   }
+//   else{
+//       printf("Not a leap year");
+//   }
+
+for(int i=1;i<=4;i++){
+    for(int j=1;j<=5;j++){
+    printf("$");
+}
+      printf("\n");
+}
+for(int i=1;i<=4;i++){
+    for(int j=1;j<=5;j++){
+    printf("%d",i);
+}
+      printf("\n");
+}
+for(int i=1;i<=4;i++){
+    for(int j=1;j<=5;j++){
+    printf("%d" ,j);
+}
+      printf("\n");
+}
+    return 0;
+}
